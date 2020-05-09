@@ -552,9 +552,8 @@ textarea.form-control {
 }
 
 .navbar-custom .navbar-brand {
-	font-weight: 700;
 	font-size: 22px;
-    font-family: Roboto, cursive;
+    font-family: Raleway-light, sans-serif;
 }
 
 .navbar-custom .dropdown-menu {
@@ -969,3 +968,7 @@ figure.effect-bubba:hover p {
 
 }
 
+#map {
+	height: 400px;
+	width: 300px;
+}

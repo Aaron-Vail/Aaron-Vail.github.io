@@ -120,6 +120,16 @@
 
 
 		/* ---------------------------------------------- /*
+		 * Mapbox MAP
+		/* ---------------------------------------------- */
+
+		mapboxgl.accessToken = 'pk.eyJ1IjoiYWFyb252YWlsIiwiYSI6ImNqZDNvYTB3aTAzODgyd3FyYmE0dDhqNGwifQ.7iK4XWXklKpAbyC_P0fXOA';
+			var map = new mapboxgl.Map({
+			container: 'map',
+			style: 'mapbox://styles/mapbox/light-v9'
+		});
+
+		/* ---------------------------------------------- /*
 		 * E-mail validation
 		/* ---------------------------------------------- */
 
